@@ -20,7 +20,7 @@ header
 {
     position: fixed;
     width: 98%;
-    z-index:10;
+    z-index:20;
     margin: 20px;
     display: flex;
     justify-content:space-between;
@@ -114,4 +114,5 @@ main::after
 .content p
 {
     margin:20px;
+
 }
