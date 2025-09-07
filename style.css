@@ -19,8 +19,8 @@ a
 header
 {
     position: fixed;
-    width: 98%;
-    z-index:20;
+    width: 95%;
+    z-index:100;
     margin: 20px;
     display: flex;
     justify-content:space-between;
@@ -116,3 +116,4 @@ main::after
     margin:20px;
 
 }
+
