@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui;
+}
+body
+{
+    background:linear-gradient(#200011,#10001f);
+    width: 100%;
+    height: 100vh;
+}
+a
+{
+    text-decoration:none;
+    color:#fff;
+    
+}
+header
+{
+    position: fixed;
+    width: 98%;
+    z-index:10;
+    margin: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+   
+}
+header .logo
+{
+    font-size: 30px;
+    text-transform:uppercase;
+    
+}
+ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li
+{
+    margin-right:25px;
+}
+header ul li a
+{
+    padding: 6px 15px;
+    transition:0.4s;
+    border-radius: 14px;
+}
+header ul li a:hover
+{
+    color:#16001A;
+    box-shadow: 2px 2px 8px #2cade0 inset;
+    background-color:#fff;
+    font-weight:600;
+}
+.main
+{
+    position:relative;
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;   
+    overflow:hidden;
+    z-index:10;
+}
+main::after
+{
+    position: absolute;
+    height:100vh;
+    width:100%;
+    content:"";
+    bottom:0;
+    background: linear-gradient(to top,#200016,transparent);
+}
+.main img
+{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+}
+#moon
+{
+    mix-blend-mode:screen;
+    transform:translateY(60px);
+    width:90%;
+    height:90%;
+}
+.MOKOPA
+{
+    color:#fff;
+    font-size:25px;
+    text-transform:uppercase;
+    transform:translateY(-150px);
+}
+.content
+{
+    
+    padding:30px;
+    color:#fff;
+}
+.content h2
+{
+    font-size:3vw;
+    display:flex;
+    justify-content:center;
+    margin:20px;
+}
+.content p
+{
+    margin:20px;
+}
